@@ -3,6 +3,16 @@
   
 <div id = header>
 <head>
+  
+  <div class="dropdown">
+    <button class="dropbtn">Contact Us</button>
+    <div class="dropdown-content">
+      <a href="https://www.instagram.com/">Instagram</a>
+      <a href="https://www.facebook.com/">Facebook</a>
+      <a href="https://x.com">Twitter</a>
+    </div>
+
+  </div> 
    <div class="container" onclick="myFunction(this)">
     <div class="bar1"></div>
     <div class="bar2"></div>
@@ -10,16 +20,19 @@
   </div> 
   <title>
 
-   Canal Bank Bakery
+   HTML Project
 
   </title>
   
 <link rel="Stylesheet" href="style.css">
   
+
 </head>
 
 <body>
-  
+
+ 
+
 <header>
         <a href ="https://41690.github.io/HTML-Project/">
         <img src ="Images/digitalLogo.jpg" class="logo"/>
@@ -33,7 +46,11 @@
          
         
 </header>
-
+<script>
+  function myFunction(x) {
+    x.classList.toggle("change");
+  }
+  </script>
 </body>
   </div>
 <div class = "description">
@@ -45,7 +62,20 @@
 <p>
   Fully insured and certified 5 &#9734; by environmental health
 </p>
-
+</div>
+<div class = "advertisement">
 <img src = "Images/Advertisement.jpeg" class = "advertisement"/>
 </div>
-</html>
+
+<h2 class="gallery-title">Gallery</h2>
+
+<div class="gallery">
+  <img src="Images/Cake1.jpg" alt="Cake 1" class="cake-image">
+  <img src="Images/Cake2.png" alt="Cake 2" class="cake-image">
+  <img src="Images/Cake3.png" alt="Cake 3" class="cake-image">
+  <img src="Images/Cake4.png" alt="Cake 3" class="cake-image">
+</div>
+
+<div class="google-map">
+  <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d11200.6607900368!2d-0.7257552448137582!3d51.29892198357918!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4875d4e177a2b573%3A0x3652273c9d7250!2sBasingstoke%20Canal!5e0!3m2!1sen!2suk!4v1730407072281!5m2!1sen!2suk" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+  </div>
