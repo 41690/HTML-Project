@@ -6,10 +6,12 @@
   font-style: normal;
 }
 
-.Digital Logo {
-
-height: 50px;
+.logo {
+  margin-left: auto;
+  margin-right: auto;
+height: 200px;
 cursor: pointer;
+  display: block;
 }
 html,
 body {
@@ -26,16 +28,64 @@ body {
   html {
     scroll-behavior: smooth;
   }
+
+.mailingList {
+  display: flex;
+  align-items: center;
+  background-color: #c7c7c7; 
+  padding: 8px;
+  border-radius: 20px; 
+  box-shadow: 0 4px 8px #333; 
+  max-width: 600px; 
+  margin: 20px auto; 
+  font-family: "Architects Daughter", cursive;
+  font-weight: 400;
+  font-style: normal;
+  }
+
+  
 .mailingList button:hover {
-background-color:  #bac1b3;
+  background-color: #969d85;
   
 }
 .mailingList button{
-  padding: 5px 10px;
+  padding: 10px 20px;
   border: none;
-  border-radius: 3px;
   background-color: #49594f; 
-  color: #fff;
+  color: #ffffff;
+  border-radius: 0 20px 20px 0; 
   cursor: pointer;
+  font-size: 16px;
+  transition: background-color 0.3s ease;
 }
+.mailingList input[type="email"] {
+  padding: 10px 15px;
+  border: 1px solid #ccc;
+  border-radius: 20px 0 0 20px; 
+  background-color: #c7c7c7; 
+  color: #333; 
+  outline: none;
+  flex-grow: 1; 
+  font-size: 20px;
+  font-family: "Architects Daughter", cursive;
+  font-weight: 400;
+  font-style: normal;
+  }
+p {
+  width: 900px;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  color: #333;
+  font-family: "Architects Daughter", cursive;
 }
+.description {
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  width: 900px; 
+  height: 110px; 
+  border-radius: 10px; 
+  background-color: #c7c7c7;
+}
+  }
