@@ -21,9 +21,21 @@ body {
   background-image: url("");
    background-repeat: no-repeat;
    background-size: cover;
+  background-color: #49594f;
 
   html {
     scroll-behavior: smooth;
   }
-
+.mailingList button:hover {
+background-color:  #bac1b3;
+  
+}
+.mailingList button{
+  padding: 5px 10px;
+  border: none;
+  border-radius: 3px;
+  background-color: #49594f; 
+  color: #fff;
+  cursor: pointer;
+}
 }
