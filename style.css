@@ -6,9 +6,10 @@
   font-style: normal;
 }
 .container {
-  display: inline-block;
-  cursor: pointer;
-  
+  position: fixed;
+  top: 20px;
+  right: 20px;
+  z-index: 1000;
 }
 
 .bar1, .bar2, .bar3 {
@@ -114,9 +115,87 @@ p {
   height: 140px; 
   border-radius: 10px; 
   background-color: #c7c7c7;
+ 
 }
 .advertisement {
 width: 600px;
-  
+margin: auto;
+padding: 10px;
+}
+
+.gallery-title {
+  text-align: center;
+  font-size: 40px;
+  color: #c7c7c7;
+  margin-top: 20px;
+  font-family: "Architects Daughter", cursive;
+}
+
+.gallery {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.cake-image {
+  width: 40%; 
+  margin: 10px;
+  border: 5px solid #c7c7c7; 
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.cake-image:hover {
+  transform: scale(1.02); 
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3); 
 }
   }
+  .google-map {
+    padding-bottom: 50%;
+    position: relative;
+    
+}
+
+.google-map iframe {
+    height: 100%;
+    width: 100%;
+    left: 0;
+    top: 0;
+    position: absolute;
+}
+.dropbtn {
+  background-color: #49594f;
+  color: #c7c7c7;
+  padding: 16px;
+  font-size: 16px;
+  border: none;
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #c7c7c7;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown-content a:hover {background-color: #ffffff;}
+
+.dropdown:hover .dropdown-content {display: block;}
+
+.dropdown:hover .dropbtn {background-color: #4d664d;}
